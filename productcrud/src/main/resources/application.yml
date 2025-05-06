@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: productcrud
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
+    open-in-view: true
+  datasource:
+    url: jdbc:postgresql://localhost:5433/products
+    username: postgres
+    password: postgres_pass
+images:
+  path: D:/Edu/Course3_2/Development-of-client-server-applications/productcrud/images
+jwt:
+  secret:
+    access: 984hg493gh0439rthr0429uruj2309yh937gc763fe87t3f89723gf
+    refresh: 984hg493gh0s5f46sd54f21sdfsda9yh937gc763fe87t3f89723gf
+  lifetime:
+    access: 1d
+    refresh: 30d
+yandex:
+  token: #Your token

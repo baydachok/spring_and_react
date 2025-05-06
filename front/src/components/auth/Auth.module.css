@@ -1,0 +1,25 @@
+.authModal {
+    position: absolute;
+    width: 30%;
+    height: fit-content;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #142d4c;
+    border: 2px solid #000;
+    color: white;
+    border-radius: 30px;
+    padding: 1%;
+}
+
+@media (max-width: 1199.98px) {
+    .authModal {
+        width: 50%;
+    }
+}
+
+@media (max-width: 767px) {
+    .authModal {
+        width: 100%;
+    }
+}

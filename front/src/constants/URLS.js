@@ -1,0 +1,16 @@
+export const GET_PRODUCTS = "http://localhost:8080/products"
+export const POST_PRODUCTS = "http://localhost:8080/products"
+export const PATCH_PRODUCT = "http://localhost:8080/products/"
+export const DELETE_PRODUCT = "http://localhost:8080/products/"
+export const GET_PRODUCT = "http://localhost:8080/products/"
+export const AUTH_LOGIN = "http://localhost:8080/auth/sign-in"
+export const AUTH_REGISTRATION = "http://localhost:8080/auth/sign-up"
+export const GET_IMAGES = "http://localhost:8080/images/"
+export const POST_ORDER = "http://localhost:8080/orders"
+export const GET_ORDERS = "http://localhost:8080/orders"
+export const PATCH_ORDER = ["http://localhost:8080/orders/", "/cancel"]
+export const GET_THREADS = "http://localhost:8080/ai/threads"
+export const POST_THREAD = "http://localhost:8080/ai/threads"
+export const GET_THREAD = "http://localhost:8080/ai/threads/"
+export const POST_MESSAGE = ["http://localhost:8080/ai/threads/", "/messages"]
+export const GET_PRODUCT_TYPES = "http://localhost:8080/product-types"

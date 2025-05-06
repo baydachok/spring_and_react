@@ -1,0 +1,25 @@
+.btnPurchase{
+    text-align: center;
+    margin: auto;
+    padding: 2%;
+    width: 50%;
+}
+
+.cartTotal{
+    text-align: right;
+    font-size: 1.3rem;
+}
+
+.cartForm {
+    position: absolute;
+    width: 30%;
+    height: fit-content;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #142d4c;
+    border: 2px solid #000;
+    color: white;
+    border-radius: 30px;
+    padding: 1%;
+}
