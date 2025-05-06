@@ -2,7 +2,7 @@ version: '3.8'
 services:
   backend:
     build:
-      context: ./backend
+      context: ./productcrud
       dockerfile: Dockerfile
     ports:
       - "8080:8080"
@@ -12,7 +12,7 @@ services:
       SPRING_DATASOURCE_PASSWORD: ${SPRING_DATASOURCE_PASSWORD}
   frontend:
     build:
-      context: ./frontend
+      context: ./front
       dockerfile: Dockerfile
     ports:
       - "3000:3000"
